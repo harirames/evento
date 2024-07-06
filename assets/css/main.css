@@ -20,18 +20,18 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #222222; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #172a28; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #008374; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --default-color: #000000; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #fbd100; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --contrast-color: #ffffff; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
+  --nav-color: #000000;  /* The default color of the main navmenu links */
   --nav-hover-color: #f85a40; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #01433c; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-background-color: #000000; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #fbd100; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #f85a40; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -66,7 +66,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: #000000;
   font-family: var(--heading-font);
 }
 
@@ -74,9 +74,9 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #008374;
-  --heading-color: #ffffff;
-  color: var(--default-color);
+  --background-color: #fbd100;
+  --heading-color: #000000;
+  color: #000000;
   transition: all 0.5s;
   z-index: 997;
   background-color: var(--background-color);
@@ -92,13 +92,13 @@ h6 {
 
 .header .topbar .contact-info i {
   font-style: normal;
-  color: var(--contrast-color);
+  color: #000000;
 }
 
 .header .topbar .contact-info i a,
 .header .topbar .contact-info i span {
   padding-left: 5px;
-  color: var(--contrast-color);
+  color: #000000;
 }
 
 @media (max-width: 575px) {
@@ -115,19 +115,19 @@ h6 {
 }
 
 .header .topbar .contact-info i a:hover {
-  color: var(--contrast-color);
+  color:#000000;
   text-decoration: underline;
 }
 
 .header .topbar .social-links a {
-  color: color-mix(in srgb, var(--contrast-color), transparent 40%);
+  color: color-mix(in srgb, #000000, transparent 40%);
   line-height: 0;
   transition: 0.3s;
   margin-left: 20px;
 }
 
 .header .topbar .social-links a:hover {
-  color: var(--contrast-color);
+  color:#000000;
 }
 
 .header .branding {
@@ -148,7 +148,7 @@ h6 {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
-  color: var(--heading-color);
+  color: #000000;
 }
 
 .header .logo span {
@@ -158,7 +158,7 @@ h6 {
 }
 
 .scrolled .header {
-  box-shadow: 0px 0 18px color-mix(in srgb, var(--default-color), transparent 85%);
+  box-shadow: 0px 0 18px color-mix(in srgb, #000000, transparent 85%);
 }
 
 /*--------------------------------------------------------------
@@ -426,8 +426,8 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   --background-color: var(--accent-color);
-  --default-color: #fff;
-  --heading-color: #fff;
+  --default-color: #000000;
+  --heading-color: #000000;
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
@@ -625,9 +625,9 @@ h6 {
 --------------------------------------------------------------*/
 .page-title {
   --background-color: var(--accent-color);
-  --default-color: #fff;
-  --heading-color: #fff;
-  color: var(--default-color);
+  --default-color: #000000;
+  --heading-color: #000000;
+  color: #000000;
   background-color: var(--background-color);
   position: relative;
 }
@@ -734,8 +734,8 @@ section,
 --------------------------------------------------------------*/
 .hero {
   --background-color: var(--accent-color);
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --default-color: #000000;
+  --heading-color: #000000;
   width: 100%;
   position: relative;
   padding: 140px 0 0 0;
@@ -763,7 +763,7 @@ section,
 }
 
 .hero .btn-get-started {
-  color: var(--contrast-color);
+  color:#000000;
   background: var(--accent-color);
   font-family: var(--heading-font);
   font-weight: 500;
